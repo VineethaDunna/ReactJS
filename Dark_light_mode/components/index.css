@@ -1,0 +1,32 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(38, 128, 181);
+}
+.Dark {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+.Light {
+  background-color: white;
+  color: black;
+}
