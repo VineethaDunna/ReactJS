@@ -1,0 +1,42 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  color: white;
+  padding: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+.btn {
+  background-color: white;
+  color: #fa7257;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid white;
+  margin: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+.card1 {
+  background-color: rgb(228, 222, 224);
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 50px;
+  margin: 10px;
+}
