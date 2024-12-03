@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.image {
+  height: 400px;
+  width: 600px;
+}
+.btn1 {
+  background-color: rgb(46, 46, 146);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
