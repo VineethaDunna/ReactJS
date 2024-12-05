@@ -23,7 +23,9 @@ class LettersCalculators extends Component {
             <label htmlFor="phraseInput" className="para">
               Enter the phrase
             </label>
+            <br />
             <input
+              id="phraseInput"
               type="text"
               className="inputBox"
               onChange={this.countLetters}
