@@ -1,42 +1,113 @@
-.bg-container {
+.app-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
-  height: 100vh;
 }
-.googleLogo {
-  width: 400px;
-  height: 150px;
-}
-.card {
+
+.google-suggestions-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  padding: 20px;
-  box-shadow: 5px 5px 10px gray;
-  border-radius: 20px;
-  margin: 10px;
-  font-size: 20px;
+  align-items: center;
+  margin-top: 125px;
 }
-.searchItems {
+
+@media screen and (min-width: 768px) {
+  .google-suggestions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+}
+
+.google-logo {
+  width: 150px;
+  height: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 432px;
+    height: 140px;
+  }
+}
+
+.search-input-suggestions-container {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 24px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-suggestions-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+
+.search-input-container {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
 }
-.search {
-  width: 50px;
-  height: 50px;
-  align-items: center;
-  margin-left: 10px;
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+  }
 }
-.input {
-  border-radius: 10px;
-  border: 0px;
-  border-color: transparent;
-  margin-left: 20px;
-  font-size: 20px;
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.search-input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-left: 16px;
   outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+}
+
+.suggestions-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestions-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
 }
