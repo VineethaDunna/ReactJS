@@ -1,19 +1,27 @@
 import './index.css'
 
 const SuggestionItem = props => {
-  const {suggestions, inputSuggestion} = props
-  const {id, suggestion} = suggestions
+  const {suggestionDetails, updateSearchInput} = props
+  const {suggestion} = suggestionDetails
+
+  const onClickSuggestion = () => {
+    updateSearchInput(suggestion)
+  }
 
   return (
-    <li className="suggestion">
-      <p className="para">{suggestion}</p>
-      <img
-        id={`arror${id}`}
-        src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png"
-        alt="arrow"
-        className="arrow"
-        onClick={() => inputSuggestion(id)}
-      />
+    <li className="suggestion-item">
+      <p className="suggestion-text">{suggestion}</p>
+      <button
+        type="button"
+        className="arrow-button"
+        onClick={onClickSuggestion}
+      >
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png"
+          alt="arrow"
+          className="arrow"
+        />
+      </button>
     </li>
   )
 }
