@@ -1,0 +1,23 @@
+.listItem {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  margin: 15px;
+  flex-direction: column;
+  width: 15vw;
+}
+.head {
+  font-size: 20px;
+}
+.headSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starbtn {
+  background-color: transparent;
+  border: none;
+}
