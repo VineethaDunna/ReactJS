@@ -1,5 +1,5 @@
 import {Component} from 'react'
-
+import {format} from 'date-fns'
 import {v4 as uuidv4} from 'uuid'
 import AppointmentItem from '../AppointmentItem'
 import './index.css'
@@ -38,10 +38,13 @@ class Appointments extends Component {
         date,
         star: false,
       }
+      const sortedAppointments = [...appointmentList, newAppointment].sort(
+        (a, b) => new Date(a.date) - new Date(b.date),
+      )
       this.setState({
         title: '',
         date: '',
-        appointmentList: [...appointmentList, newAppointment],
+        appointmentList: sortedAppointments,
       })
     }
   }
@@ -102,6 +105,7 @@ class Appointments extends Component {
                 className="input-text"
                 type="date"
                 value={date}
+                min={format(new Date(), 'yyyy-MM-dd')}
                 onChange={this.onChangeDate}
               />
               <br />
