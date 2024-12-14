@@ -1,0 +1,25 @@
+.listings {
+  display: flex;
+  color: white;
+}
+.tabbtn {
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+.tabactive {
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(254, 168, 20);
+  border-bottom: 2px solid rgb(254, 168, 20);
+  cursor: pointer;
+  margin: 20px;
+}
