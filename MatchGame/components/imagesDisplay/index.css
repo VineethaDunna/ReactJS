@@ -1,0 +1,17 @@
+.listings {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.thumbnail {
+  width: 200px;
+  height: 200px;
+}
+.activeImg {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
