@@ -1,0 +1,12 @@
+/* Write your code here. */
+.listItem {
+  padding: 10px;
+}
+.smallImage {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.activeThumbnail {
+  opacity: 1;
+  cursor: pointer;
+}

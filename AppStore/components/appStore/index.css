@@ -1,0 +1,47 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.heading {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.input-container {
+  position: relative;
+  width: 400px;
+}
+.searchImg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+.searchbar {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  font-size: 20px;
+  margin: 10px;
+}
+.tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  border: none;
+}
+.apps {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}

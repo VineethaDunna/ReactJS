@@ -1,0 +1,29 @@
+/* Write your CSS code here. */
+.bg-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+  list-style-type: none;
+}

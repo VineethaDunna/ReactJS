@@ -1,0 +1,37 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  padding: 50px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px gray;
+}
+.heading {
+  color: rgb(54, 54, 249);
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn {
+  background-color: rgb(11, 82, 182);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.value {
+  color: rgb(3, 3, 36);
+  font-size: 35px;
+  font-weight: bold;
+}
