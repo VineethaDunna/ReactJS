@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.webContainer {
+  background: linear-gradient(to bottom, #a4261d, #0f172a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  min-height: 100vh;
+}
+.teamUrl {
+  width: 800px;
+  height: 300px;
+}
+.matchcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
