@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.listCard {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.imagecompete1 {
+  width: 100px;
+  height: 100px;
+}
+.head1 {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  text-align: center;
+}
+.matchWin {
+  color: green;
+  font-size: 20px;
+}
+.matchLost {
+  color: red;
+  font-size: 20px;
+}

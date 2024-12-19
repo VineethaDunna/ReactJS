@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.214);
+  /* opacity: 0.5; */
+  border: 2px solid #f5f6f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+
+  font-weight: bold;
+}
+.linkItem {
+  text-decoration: none;
+}
+.iplImg {
+  width: 100px;
+  height: 100px;
+}
+.name {
+  color: white;
+  font-size: 20px;
+}
