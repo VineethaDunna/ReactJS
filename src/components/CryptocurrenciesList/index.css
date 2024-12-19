@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+}
+.currencyList {
+  border: 2px solid #00e7ff;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  width: 80vw;
+}
+.headerTab {
+  display: flex;
+  border-radius: 10px;
+  margin: 0px;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: #092e33;
+  padding: 20px;
+}
